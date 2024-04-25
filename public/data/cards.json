@@ -1,0 +1,39 @@
+[
+    {
+        "image": "../assets/J-S.png",
+        "name": "J-S"
+    },
+    {
+        "image": "../assets/A-S.png",
+        "name": "A-S"
+    },
+    {
+        "image": "../assets/K-S.png",
+        "name": "K-S"
+    },
+    {
+        "image": "../assets/Q-S.png",
+        "name": "Q-S"
+    },
+    {
+        "image": "../assets/J-D.png",
+        "name": "J-D"
+    },
+    {
+        "image": "../assets/A-D.png",
+        "name": "A-D"
+    },
+    {
+        "image": "../assets/K-D.png",
+        "name": "K-D"
+    },
+    {
+        "image": "../assets/Q-D.png",
+        "name": "Q-D"
+    },
+
+    {
+        "image": "../assets/J-R.png",
+        "name": "J-R"
+    }
+]

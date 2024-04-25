@@ -1,0 +1,281 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Times+New+Roman:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: url(homepage_img.avif);
+  /* background-size: cover; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Times New Roman', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: aliceblue;
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button_h {
+    margin-top: 120px;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 0.1rem;
+  background-color: #333;
+  border-radius: 0.5rem;
+}
+
+.button_h:hover {
+  color: #333;
+  background-color: #fff;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.button_h span {
+  position: absolute;
+  display: block;
+}
+
+.button_h span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 0.2rem;
+  background-image: linear-gradient(90deg, transparent, #fff);
+  animation: animate1 1s linear infinite;
+}
+
+.button_h span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 0.2rem;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, #fff);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+.button_h span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 0.2rem;
+  background-image: linear-gradient(270deg, transparent, #fff);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.button_h span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 0.2rem;
+  height: 100%;
+  background-image: linear-gradient(360deg, transparent, #fff);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Times+New+Roman:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  background-image: url(mainbg.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Times New Roman', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f2f2f2;
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button_h {
+  margin-top: 120px;
+  position: relative;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  color: #f2f2f2;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 0.2rem;
+  background-image: linear-gradient(to right, #333, #555, #777, #999, #bbb, #ddd, #f2f2f2);
+  background-size: 600%;
+  border-radius: 2rem;
+}
+
+.button_h:hover {
+  background-position: 100% 0;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 2rem rgba(255, 255, 255, 0.5);
+  color: #333;
+}
+
+.button_h span {
+  position: absolute;
+  display: block;
+}
+
+.button_h span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background: linear-gradient(90deg, transparent, #fff);
+  animation: animate1 2s linear infinite;
+}
+
+.button_h span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 0.2rem;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #fff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.button_h span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 0.2rem;
+  background: linear-gradient(270deg, transparent, #fff);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+
+.button_h span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 0.2rem;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #fff);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
